@@ -1,0 +1,19 @@
+{
+  "lr": 0.1,
+  "reg": "L2",
+  "loss": "softmax",
+  "warstwy": [
+    {
+      "funkcja_aktywacji": "ReLU",
+      "liczba_neuronów": 1
+    },
+    {
+      "funkcja_aktywacji": "ReLU",
+      "liczba_neuronów": 10
+    },
+    {
+      "funkcja_aktywacji": "ReLU",
+      "liczba_neuronów": 1
+    }
+  ]
+}
